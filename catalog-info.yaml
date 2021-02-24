@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-test-app
+  description: Test ReactJS Component in Backstage
+  annotations:
+    github.com/project-slug: seizadi/react-test-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: seizadi@gmail.com
